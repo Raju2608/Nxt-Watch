@@ -28,7 +28,7 @@ class App extends Component {
 
   saveVideoButtonClicked = data => {
     const {savedVideosList} = this.state
-    this.setState({savedVideosList: [...savedVideosList]})
+    this.setState({savedVideosList: [...savedVideosList, data]})
   }
 
   render() {
